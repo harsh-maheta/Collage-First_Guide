@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/drawable/circle.xml" value="0.2484375" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/drawable/gradient.xml" value="0.2484375" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/drawable/log_buton.xml" value="0.2484375" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/drawable/log_button.xml" value="0.2484375" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/drawable/log_page.xml" value="0.24461538461538462" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_loge_page.xml" value="0.1" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_main2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_paying_guest.xml" value="0.2" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_signup_page.xml" value="0.2" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_stationery.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_three_page.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/activity_tiffin_page.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/loge_page.xml" value="0.2" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/paying_guest.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/signin_page.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/signup_page.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/stationery.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/three_option.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/admin/project of android_studio/Collage_First_Guide/app/src/main/res/layout/tiffin.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

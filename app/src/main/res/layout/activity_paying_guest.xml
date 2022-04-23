@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <Button
+        android:id="@+id/fur_btn"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:text="furniture
+        (included)"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fur_not_btn"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/fur_not_btn"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:text="furniture
+        (not
+        included)"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/emt_btn"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:text="empty room"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ful_faci_btn"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fur_btn"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Button
+        android:id="@+id/ful_faci_btn"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:text="full facility"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fur_not_btn"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Button
+        android:id="@+id/prvt_btn"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="28dp"
+        android:text="private hostel"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gov_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emt_btn"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <Button
+        android:id="@+id/gov_btn"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:text="government hostel"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ful_faci_btn"
+        app:layout_constraintVertical_bias="0.277" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

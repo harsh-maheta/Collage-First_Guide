@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938614420594",
+    "project_id": "collage-first-guide",
+    "storage_bucket": "collage-first-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938614420594:android:b9ebb60f211fed5f1afeeb",
+        "android_client_info": {
+          "package_name": "com.example.collage_first_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938614420594-03c6uqa851g83a03tlhkbsqujk092roh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuE26unaocjf40BIEl0CFsRr-DDLNajy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938614420594-03c6uqa851g83a03tlhkbsqujk092roh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

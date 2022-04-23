@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <Button
+        android:id="@+id/paying_guest"
+        android:layout_width="236dp"
+        android:layout_height="131dp"
+        android:onClick="paying_click"
+        android:text="Paying Guest"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="@color/purple_700"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/tiffin"
+        android:layout_width="236dp"
+        android:layout_height="131dp"
+        android:onClick="tiffin_click"
+
+        android:text="Tiffin"
+        android:textColor="@color/white"
+
+        android:textSize="24sp"
+        app:backgroundTint="@color/purple_700"
+        app:backgroundTintMode="add"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paying_guest"
+        app:layout_constraintVertical_bias="0.2"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/stationery"
+        android:layout_width="236dp"
+        android:layout_height="131dp"
+        android:onClick="stationery_click"
+        android:text="Stationery"
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:backgroundTint="@color/purple_700"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tiffin"
+        app:layout_constraintVertical_bias="0.455"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
