@@ -18,6 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
 
 import java.security.PrivateKey;
+import java.util.Objects;
 
 public class loge_page extends AppCompatActivity {
     private EditText editTxt_email,editTxt_password;
@@ -76,7 +77,7 @@ public class loge_page extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(),"successful login",Toast.LENGTH_LONG).show();
                         }
                         else{
-                            Toast.makeText(getApplicationContext(),"Error",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"Error, reason: " + Objects.requireNonNull(task.getException()).getMessage(),Toast.LENGTH_LONG).show();
                         }
                         editTxt_email.setText("");
                         editTxt_password.setText("");

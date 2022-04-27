@@ -19,6 +19,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.BreakIterator;
+import java.util.Objects;
 
 public class signup_page extends AppCompatActivity {
 
@@ -104,7 +105,8 @@ public class signup_page extends AppCompatActivity {
                             });
                         }
                         else{
-                            Toast.makeText(getApplicationContext(),"data Not sccessful insert!",Toast.LENGTH_LONG).show();
+//                            Toast.makeText(getApplicationContext(),"data Not sccessful insert!",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"Error, Reason: " + Objects.requireNonNull(task.getException()).getMessage(),Toast.LENGTH_LONG).show();
                             editTxt_email1.setText("");
                             editTxt_name.setText("");
                             editTxt_password1.setText("");
